@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "willemsleegers.com"
+  site-url: https://www.willemsleegers.com
+  description: "The personal website of Willem Sleegers."
+  navbar:
+    pinned: false
+    collapse-below: md
+    left:
+      - href: index.qmd
+        text: Home
+      - content/about.qmd
+      - content/projects.qmd
+      - content/blog.qmd
+      - href: content/cv/cv.qmd
+        text: CV
+    right:
+      - href: https://www.twitter.com/willemsleegers
+        icon: twitter
+      - href: https://www.github.com/willemsleegers
+        icon: github
+  page-footer: 
+    left: "Copyright 2022 - Willem Sleegers" 
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/
+
+format:
+  html:
+    toc: true
+    theme: 
+      light: [cosmo, light.scss]
+      dark: [darkly, dark.scss]
+    css: styles.css
+
+editor: visual

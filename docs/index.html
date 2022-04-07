@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="generator" content="quarto-0.9.185">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>willemsleegers.com - Willem Sleegers</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+
+  <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+  <script src="site_libs/quarto-nav/headroom.min.js"></script>
+  <script src="site_libs/clipboard/clipboard.min.js"></script>
+  <meta name="quarto:offset" content="./">
+  <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+  <script src="site_libs/quarto-search/fuse.min.js"></script>
+  <script src="site_libs/quarto-search/quarto-search.js"></script>
+  <script src="site_libs/quarto-listing/list.min.js"></script>
+  <script src="site_libs/quarto-listing/quarto-listing.js"></script>
+  <script src="site_libs/quarto-html/quarto.js"></script>
+  <script src="site_libs/quarto-html/popper.min.js"></script>
+  <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+  <script src="site_libs/quarto-html/anchor.min.js"></script>
+  <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+  <link class="quarto-color-scheme" id="quarto-text-highlighting-styles" href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+  <link class="quarto-color-scheme quarto-color-alternate" rel="prefetch" id="quarto-text-highlighting-styles" href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css">
+  <script src="site_libs/bootstrap/bootstrap.min.js"></script>
+  <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+  <link class="quarto-color-scheme" href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link class="quarto-color-scheme quarto-color-alternate" rel="prefetch" href="site_libs/bootstrap/bootstrap-dark.min.css">
+  <script id="quarto-search-options" type="application/json">{
+    "location": "navbar",
+    "copy-button": false,
+    "collapse-after": 3,
+    "panel-placement": "end",
+    "type": "overlay",
+    "limit": 20,
+    "language": {
+      "search-no-results-text": "No results",
+      "search-matching-documents-text": "matching documents",
+      "search-copy-link-title": "Copy link to search",
+      "search-hide-matches-text": "Hide additional matches",
+      "search-more-match-text": "more match in this document",
+      "search-more-matches-text": "more matches in this document",
+      "search-clear-button-title": "Clear",
+      "search-detached-cancel-button-title": "Cancel",
+      "search-submit-button-title": "Submit"
+    }
+  }</script>
+  <script>
+
+    window.document.addEventListener("DOMContentLoaded", function (_event) {
+      const listingTargetEl = window.document.querySelector('#listing-projects .list');
+      if (!listingTargetEl) {
+        // No listing discovered, do not attach.
+        return; 
+      }
+
+      const options = {
+        valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+        
+        searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      };
+
+      window['quarto-listings'] = window['quarto-listings'] || {};
+      window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
+
+      if (window['quarto-listing-loaded']) {
+        window['quarto-listing-loaded']();
+      }
+    });
+    
+
+    window.document.addEventListener("DOMContentLoaded", function (_event) {
+      const listingTargetEl = window.document.querySelector('#listing-posts .list');
+      if (!listingTargetEl) {
+        // No listing discovered, do not attach.
+        return; 
+      }
+
+      const options = {
+        valueNames: ['listing-date','listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+        
+        searchColumns: ["listing-date","listing-title","listing-author","listing-description"],
+      };
+
+      window['quarto-listings'] = window['quarto-listings'] || {};
+      window['quarto-listings']['listing-posts'] = new List('listing-posts', options);
+
+      if (window['quarto-listing-loaded']) {
+        window['quarto-listing-loaded']();
+      }
+    });
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="fullcontent">
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">willemsleegers.com</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./content/about.html">About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./content/projects.html">Projects</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./content/blog.html">Blog</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./content/cv/cv.html">CV</a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.twitter.com/willemsleegers"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.github.com/willemsleegers"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<div class="quarto-about-jolla">
+  <img src="images/avatar.png" class="about-image
+  round " style="height: 200px; width: 200px;">
+ <header id="title-block-header" class="quarto-title-block default">
+
+<div class="quarto-title"><h1 class="title display-7">Willem Sleegers</h1></div></header><div id="hero-heading">
+<p>Senior Behavioral Scientist at Rethink Priorities</p>
+</div> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://twitter.com/willemsleegers" class="about-link">twitter</a>
+  <a href="https://github.com/willemsleegers" class="about-link">Github</a>
+</div>
+</div>
+
+<section id="about" class="level2">
+<h2 class="anchored" data-anchor-id="about">About</h2>
+<p>I’m a Senior Behavioral Scientist at&nbsp;<a href="https://rethinkpriorities.org/">Rethink Priorities</a>. I am part of the survey team, which means I conduct research on attitude assessments and attitude change, using surveys and experimental designs. Before joining Rethink Priorities, I was an assistant professor in the Department of Social Psychology at&nbsp;<a href="https://www.tilburguniversity.edu/">Tilburg University</a>. On this website you can find information about some of the projects I’m involved in. I also blog posts about various topics related to my work.</p>
+<p><a href="./content/about.html" title="Learn more about me">Learn more</a></p>
+</section>
+<section id="projects" class="level2">
+<h2 class="anchored" data-anchor-id="projects">Projects</h2>
+<div id="listing-projects" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1649197585000" data-listing-reading-time-sort="4.72">
+<a href="./content/projects/animal-welfare/animal-welfare.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Animal welfare
+</h5>
+<div class="card-text listing-description">
+This is not really a project, but rather a topic I want to focus on more in my research. I am only just starting this new focus, so there is not yet much I can show, but…
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1649198006000" data-listing-reading-time-sort="1.775">
+<a href="./content/projects/cognitive-dissonance/cognitive-dissonance.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cognitive dissonance
+</h5>
+<div class="card-text listing-description">
+Cognitive dissonance refers to a state of aversive arousal that is experienced when people realize they possess mutually inconsistent cognitions. This state is the…
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1648804064000" data-listing-reading-time-sort="2.135">
+<a href="./content/projects/statcheck/statcheck.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+statcheck
+</h5>
+<div class="card-text listing-description">
+Together with <span>Michèle Nuijten</span> I am working on improving <code>statcheck</code>. <code>statcheck</code> is a software tool to help researchers make fewer…
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1648804070000" data-listing-reading-time-sort="3.055">
+<a href="./content/projects/tidystats/tidystats.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+tidystats
+</h5>
+<div class="card-text listing-description">
+<code>tidystats</code> is a project centered around creating software to improve how statistics are reported and shared in the field of (social) psychology.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="blog-posts" class="level2">
+<h2 class="anchored" data-anchor-id="blog-posts">Blog posts</h2>
+<div id="listing-posts" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1625695200000" data-listing-file-modified-sort="1625858879000" data-listing-reading-time-sort="3.825">
+<div class="body">
+<a href="./content/posts/8-the-right-order-of-method-sections/the-right-order-of-method-sections.html">
+<h3 class="no-anchor listing-title">
+The right order of Method sections
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Method sections in academic (psychology) papers usually consist of the following sections: Participants, Design, Procedure, and Materials. They also tend to be presented in this order. But is this, generally speaking, the right order? I don’t think so.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./content/posts/8-the-right-order-of-method-sections/the-right-order-of-method-sections.html">
+<div class="listing-date">
+Jul 8, 2021
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1619301600000" data-listing-file-modified-sort="1648934033000" data-listing-reading-time-sort="7.835">
+<div class="body">
+<a href="./content/posts/6-a-tidystats-example/a-tidystats-example.html">
+<h3 class="no-anchor listing-title">
+A tidystats example
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>I illustrate how to use my tidystats software to analyze and report the results of a replication study that was part of the Many Labs 1 project.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./content/posts/6-a-tidystats-example/a-tidystats-example.html">
+<div class="listing-date">
+Apr 25, 2021
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="statistics" data-listing-date-sort="1596578400000" data-listing-file-modified-sort="1649268014000" data-listing-reading-time-sort="14.65">
+<div class="body">
+<a href="./content/posts/4-why-divide-by-n-1/why-divide-by-n-1.html">
+<h3 class="no-anchor listing-title">
+Why divide by N - 1 to calculate the variance of a sample?
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>In a recent <span>tweet</span> I asked the question why we use <span class="math inline">\(n - 1\)</span> to calculate the variance of a sample. Many people contributed an answer, but many of them were of the type I feared. The response consists of some statistical jargon that confuses me more, rather than less. Some of the responses were very useful, though, so I recommend checking out the replies to the tweet. Based on some of the responses I received, I will try to describe my favorite way of looking at the issue.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./content/posts/4-why-divide-by-n-1/why-divide-by-n-1.html">
+<div class="listing-date">
+Aug 5, 2020
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="" data-listing-date-sort="1596232800000" data-listing-file-modified-sort="1624219930000" data-listing-reading-time-sort="1.6">
+<div class="body">
+<a href="./content/posts/3-useful-power-analysis-papers/useful-power-analysis-papers.html">
+<h3 class="no-anchor listing-title">
+Useful power analysis papers
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>In this post I list papers that are useful for understanding power analyses. A curious thing happened in the field of social psychology: Social psychologists finally realized that statistical power is important. Unfortunately, they then skipped the step of figuring out how to do them correctly. Here I list some papers on power analyses that I hope help in improving the way we do them.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./content/posts/3-useful-power-analysis-papers/useful-power-analysis-papers.html">
+<div class="listing-date">
+Aug 1, 2020
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="statistics,tutorial,regression" data-listing-date-sort="1596232800000" data-listing-file-modified-sort="1649177632251" data-listing-reading-time-sort="12.645">
+<div class="body">
+<a href="./content/posts/1-understanding-regression-part-1/understanding-regression-part-1.html">
+<h3 class="no-anchor listing-title">
+Understanding Regression (Part 1)
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>This is Part 1 of a series of blog posts on how to understand regression. The goal is to develop an intuitive understanding of the different components of regression. In this first post, we figure out where the estimate of an intercept-only regression model comes from.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./content/posts/1-understanding-regression-part-1/understanding-regression-part-1.html">
+<div class="listing-date">
+Aug 1, 2020
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<p><a href="./content/blog.html" title="See more blog posts">More posts</a></p>
+</section>
+<section id="cv" class="level2">
+<h2 class="anchored" data-anchor-id="cv">CV</h2>
+<p>I’m an Senior Behavioral Scientist at Rethink Priorities. I have recently left academia after having built up 10 years of research experience, with publications of both scientific papers in peer-reviewed journals, as well as software publications. It should be no surprise then that my skill set consists of research skills (e.g., experimental design, data analysis, writing) and technical skills (e.g., programming). I now look forward to applying my skills to topics of great impact together with my colleagues at Rethink Priorities.</p>
+<p><a href="./content/cv/cv.html" title="Learn more about my CV">Learn more</a></p>
+
+
+
+
+
+</section>
+</main> <!-- /main -->
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+    } else {
+      disableStylesheet(alternateStylesheets);
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } 
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    setTimeout(function() {
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright 2022 - Willem Sleegers</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+</body></html>
